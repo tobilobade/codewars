@@ -1,0 +1,8 @@
+function sumMix(x){
+ const newArray= x.map(items=>{
+    return parseInt(items, 10)
+  
+  }).reduce((a,b)=>a+b,0)
+  
+ return newArray
+}
